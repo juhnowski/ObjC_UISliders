@@ -26,4 +26,7 @@
 }
 
 
+- (IBAction)sliderAction:(id)sender {
+    [self.label setFont:[UIFont fontWithName:@"Verdana" size:self.slider.value]];
+}
 @end
